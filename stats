@@ -1,0 +1,5 @@
+def get_num_words():
+    book_path = 'books/frankenstein.txt'  # relative path to the book file
+    book_contents = get_book_text(book_path)
+    count = len(book_contents.split())
+    return count
